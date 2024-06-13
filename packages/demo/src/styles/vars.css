@@ -1,0 +1,11 @@
+:root {
+  --color-primary: hsl(359 73% 42%);
+  --color-primary-light: hsl(359 73% 57%);
+  --color-primary-dark: hsl(359 73% 27%);
+
+  --color-secondary: hsl(194 70% 33%);
+  --color-secondary-light: hsl(194 70% 63%);
+  --color-secondary-dark: hsl(194 70% 13%);
+
+  --border-radius: 12px;
+}

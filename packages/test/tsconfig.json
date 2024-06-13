@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+  ],
+  "compilerOptions": {
+    "noEmitOnError": false,
+    "rootDir": "./src"
+  },
+  "references": [
+    { "path": "../library" }
+  ]
+}

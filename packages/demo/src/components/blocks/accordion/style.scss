@@ -1,0 +1,34 @@
+.accordion-items {
+  border-radius: var(--border-radius);
+  border: 1px solid black;
+}
+
+.accordion-details {
+  border-bottom: 1px solid black;
+}
+.accordion-details:last-of-type {
+  border-bottom: none;
+}
+
+.accordion-summary {
+  padding: 0.8rem;
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.5rem;
+  transition: 0.3s background-color;
+}
+.accordion-details:first-of-type .accordion-summary {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+.accordion-details:last-of-type:not([open]) .accordion-summary {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+.accordion-summary:hover,
+.accordion-details[open] .accordion-summary {
+  background-color: var(--color-secondary-light);
+}
+.accordion-content {
+  padding: 0.8rem;
+}

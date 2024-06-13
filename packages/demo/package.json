@@ -1,0 +1,28 @@
+{
+  "name": "route-transition-demo",
+  "private": true,
+  "scripts": {
+    "serve": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
+    "serve:analyze": "webpack serve --mode=development --env analyze",
+    "build:analyze": "webpack --mode=production --env analyze"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "compression-webpack-plugin": "^11.1.0",
+    "css-loader": "^7.1.1",
+    "fork-ts-checker-webpack-plugin": "^9.0.2",
+    "postcss-loader": "^8.1.1",
+    "pug-plugin": "^5.2.0",
+    "sass": "^1.77.0",
+    "sass-loader": "^14.2.1",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.91.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "route-transition": "file:../library"
+  }
+}

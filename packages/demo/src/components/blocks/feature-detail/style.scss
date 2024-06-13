@@ -1,0 +1,19 @@
+.feature-detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.feature-detail-left-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature-detail-right-column {
+}
+
+.feature-detail-title {
+}
+
+@media all and (max-width: 768px) {
+}

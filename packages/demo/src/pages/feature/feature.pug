@@ -1,0 +1,16 @@
+extends ../../layouts/base
+block head
+  title Feature
+
+block main
+  #rt-content.page-feature
+    //- link(href=require('./feature.scss') rel='stylesheet')
+    div(data-testid="page-feature")
+    .container.page__container
+      include ../../components/blocks/feature-detail/template.pug
+
+    .container.page__container.rt-el-animation
+      h2.base-h Lorem ipsum dolor sit amet
+      p.base-p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque voluptatibus quis voluptate! Inventore molestias quibusdam quae iusto commodi modi error nisi rerum earum praesentium animi maiores, voluptatibus, quod ipsa ex repudiandae numquam aperiam excepturi distinctio non porro! Ab, ipsum!
+      p.base-p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque voluptatibus quis voluptate! Inventore molestias quibusdam quae iusto commodi modi error nisi rerum earum praesentium animi maiores, voluptatibus, quod ipsa ex repudiandae numquam aperiam excepturi distinctio non porro! Ab, ipsum!
+    script(src=require('./feature.ts'))

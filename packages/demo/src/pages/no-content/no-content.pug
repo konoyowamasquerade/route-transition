@@ -1,0 +1,9 @@
+extends ../../layouts/base
+block head
+  title Another Page
+
+block main
+  .no-content
+    link(href=require('./no-content.scss') rel='stylesheet')
+    div(data-testid="page-no-content") page with no content
+    script(src=require('./no-content.ts'))

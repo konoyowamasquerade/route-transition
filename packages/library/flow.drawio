@@ -1,0 +1,88 @@
+<mxfile host="65bd71144e">
+    <diagram id="5CVbr7s_qsbn3Q3yyg96" name="Page-1">
+        <mxGraphModel dx="664" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="40" style="edgeStyle=none;html=1;strokeWidth=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="2" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;strokeWidth=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="2" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="html=1;strokeColor=#4D4D4D;strokeWidth=1;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Action Link Click" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="30" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="action" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="90" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;strokeWidth=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="35" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Animate Els OUT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="140" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;strokeWidth=1;strokeColor=#4D4D4D;" edge="1" parent="1" source="37" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;dashed=1;strokeColor=#4D4D4D;strokeWidth=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="37" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;dashed=1;strokeColor=#4D4D4D;strokeWidth=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="37" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Load Content" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="830" y="140" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;dashed=1;strokeColor=#4D4D4D;strokeWidth=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="42" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Animate Els IN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="240" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="load" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="200" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="complete&lt;br&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="320" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Href Not Found Error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660000;strokeColor=#B20000;fontColor=#ffffff;align=center;fontStyle=0;gradientColor=none;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="40" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Content Element Not Found Error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660000;strokeColor=#B20000;fontColor=#ffffff;align=center;fontStyle=0;gradientColor=none;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="100" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="Animation Error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660000;strokeColor=#B20000;fontColor=#ffffff;align=center;fontStyle=0;gradientColor=none;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="160" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.909;entryY=0.744;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#4D4D4D;strokeWidth=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="65" target="65">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Loading Content Element Not Found Error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660000;strokeColor=#B20000;fontColor=#ffffff;align=center;fontStyle=0;gradientColor=none;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="160" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Network Error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660000;strokeColor=#B20000;fontColor=#ffffff;align=center;fontStyle=0;gradientColor=none;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="200" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="No Internet Connection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660000;strokeColor=#B20000;fontColor=#ffffff;align=center;fontStyle=0;gradientColor=none;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="240" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Response Parse Error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660000;strokeColor=#B20000;fontColor=#ffffff;align=center;fontStyle=0;gradientColor=none;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="280" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Request Error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660000;strokeColor=#B20000;fontColor=#ffffff;align=center;fontStyle=0;gradientColor=none;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="320" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Request Aborted Error" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#660000;strokeColor=#B20000;fontColor=#ffffff;align=center;fontStyle=0;gradientColor=none;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="360" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="insert" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.event;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="260" width="110" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

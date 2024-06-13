@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "ESNext",
+
+    "paths": {
+      "#rt/*": ["./src/*"]
+    },
+    "outDir": "./dist/",
+    "types": ["node"],
+    "declaration": true,
+    "composite": true,
+    "sourceMap": true,
+    // "declarationMap": true,
+    // "strict": true,
+  }
+}

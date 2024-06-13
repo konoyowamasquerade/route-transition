@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import 'route-transition/styles';
+
+@import './styles/vars';
+@import './styles/base';
+
+@import './components/common/footer/style.scss';
+@import './components/common/header/style.scss';
+@import './components/common/logo/style.scss';
+@import './components/common/main-menu/style.scss';
+
+@import './pages/home/home.scss';
+@import './pages/about/about.scss';
+@import './pages/feature/feature.scss';
+
+html {
+  font-size: 0.8rem;
+}
+
+body {
+  font-family: 'Sawarabi Mincho', serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.page__footer {
+  margin-top: auto;
+}
+
+.page__container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@keyframes fancy {
+  from {
+    opacity: 0;
+    transform: translateX(-10px) scale(0.6) skew(5deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1) skew(0);
+  }
+}
+
+.rt-el-animation-out,
+.rt-el-animation-in {
+  animation-name: fade;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+.rt-el-animation-out {
+  animation-direction: reverse;
+}
+
+// FEATURE
+.feature-item-brief,
+.feature-item-detail {
+  position: relative;
+  display: block;
+  background-color: var(--color-secondary);
+  border-radius: var(--border-radius);
+
+  background-image: url(./components/blocks/feature-brief/feature-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-item-brief.feature-item-fancy-animation.rt-el-animation,
+.feature-item-detail.feature-item-fancy-animation.rt-el-animation {
+  animation: none;
+}
+.feature-item-brief,
+.feature-item-detail.feature-item-fancy-animation.rt-el-animation-out {
+  width: 300px;
+  height: 300px;
+}
+.feature-item-detail,
+.feature-item-brief.feature-item-fancy-animation.rt-el-animation-out {
+  width: 100%;
+  height: 650px;
+}
+.feature-item-brief.feature-item-fancy-animation.rt-el-animation-out,
+.feature-item-detail.feature-item-fancy-animation.rt-el-animation-out {
+  transition-property: all;
+  transition-duration: 1.5s;
+  transition-timing-function: ease-in-out;
+}
+
+// .rt-el-animation-before-in:not(.feature-item-brief):not(.feature-item-detail) {
+//   opacity: 0;
+// }

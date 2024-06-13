@@ -1,0 +1,29 @@
+doctype html
+
+html(lang="en" prefix="og:http://ogp.me/ns#")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+    meta(property="og:title" content="Dynamic Content Routing - Demo")
+    meta(property="og:description" content="")
+    meta(property="og:image" content=require("../../public/icons/android-chrome-512x512.png"))
+    meta(property="og:type" content="website")
+
+    link(href=require("../main.scss") rel="stylesheet")
+
+    link(rel="apple-touch-icon" sizes="180x180" href=require("../../public/icons/apple-touch-icon.png"))
+    link(rel="icon" type="image/png" sizes="32x32" href=require("../../public/icons/favicon-32x32.png"))
+    link(rel="icon" type="image/png" sizes="16x16" href=require("../../public/icons/favicon-16x16.png"))
+
+    block head
+  body
+    .page
+      include ../components/common/header/template.pug
+      main
+        block main
+      .page__footer
+        include ../components/common/footer/template.pug
+
+    script(src=require("../main.ts"))

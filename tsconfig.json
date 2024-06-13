@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "noEmitOnError": true,
+    "allowJs": true,
+
+    "target": "ES6",
+
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+  },
+}

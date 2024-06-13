@@ -1,0 +1,35 @@
+.feature-brief {
+}
+
+.feature-brief-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+.feature-brief-line_left {
+}
+.feature-brief-line_right {
+}
+.feature-brief__line {
+  flex-grow: 1;
+}
+.feature-brief-line {
+  height: 1px;
+  background-color: var(--color-secondary-light); 
+}
+
+.feature-brief__title {
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  left: 15px;
+}
+
+.feature-brief-title {
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+}

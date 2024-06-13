@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href=require("./main.scss") rel="stylesheet")
+    block title
+  body
+    nav
+      a.rt-action-link(href="./index.html") page 1
+      a.rt-action-link(href="./page-2.html") page 2
+    block main
+    script(src=require("./main.ts"))

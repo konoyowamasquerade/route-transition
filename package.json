@@ -1,0 +1,50 @@
+{
+  "name": "route-transition",
+  "version": "1.0.0",
+  "description": "Animate simple static site pages routing",
+  "private": false,
+  "main": "packages/library/dist/index.js",
+  "exports": {
+    ".": "./packages/library/dist/index.js",
+    "./styles": "./packages/library/dist/styles.min.css",
+    "./development": "./packages/library/src/main.ts"
+  },
+  "types": "packages/library/dist/index.d.ts",
+  "module": "packages/library/dist/index.js",
+  "browser": "packages/library/dist/index-umd.min.js",
+  "jsdelivr": "packages/library/dist/index-umd.min.js",
+  "scripts": {
+    "build:library": "npm run build --workspace=packages/library",
+    "build:demo": "npm run build --workspace=packages/demo",
+    "build:all": "npm run build:library && npm run build:demo",
+    "dev:demo": "npm run serve --workspace=packages/demo",
+    "dev:test": "npm run serve --workspace=packages/test",
+    "test:unit": "npm run test:unit --workspace=packages/library",
+    "test:e2e": "npm run test:e2e --workspace=packages/library"
+  },
+  "files": [
+    "packages/library/dist"
+  ],
+  "author": "Denis N. (konoyowamasquerade@gmail.com)",
+  "keywords": [
+    "dynamic",
+    "animation",
+    "site",
+    "routing",
+    "html"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konoyowamasquerade/route-transition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/konoyowamasquerade/route-transition/issues"
+  },
+  "homepage": "https://github.com/konoyowamasquerade/route-transition",
+  "workspaces": [
+    "packages/demo",
+    "packages/library",
+    "packages/test"
+  ]
+}
